@@ -1,0 +1,27 @@
+/* Apply a dark theme to the form */
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.dark {
+    background-color: #333;
+    color: #c0adad;
+
+    a {
+        color: #c0adad;
+    }
+
+
+    input[type="text"],
+    textarea {
+        background-color: #333;
+        color: #c0adad;
+        border: 2px embossed #c0adad
+    }
+}
+
+button {
+    font-weight: bold;
+    border-radius: 5px;
+
+}
