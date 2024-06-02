@@ -3,6 +3,7 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+/* Apply a dark theme to the form */
 .dark {
     background-color: #333;
     color: #c0adad;
@@ -11,7 +12,7 @@
         color: #c0adad;
     }
 
-
+    /* apply color to the text input and textarea */
     input[type="text"],
     textarea {
         background-color: #333;
@@ -20,6 +21,7 @@
     }
 }
 
+/* style the buttons */
 button {
     font-weight: bold;
     border-radius: 5px;

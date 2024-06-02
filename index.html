@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Post</title>
+
+    <!-- The CSS files used in this application are linked here -->
+
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/form.css">
 </head>
@@ -20,12 +23,18 @@
         <button id="change-theme">Change Theme</button>
 
     </header>
+
+    <!-- The main container div contains two children divs for the two sides of the blog application -->
     <div style="display: flex;">
+
+        <!-- The left div for the "The Blogger title"-->
         <div class="container" id="the-blogger">
             <div id="container-title">
                 <h1>The Blogger</h1>
             </div>
         </div>
+
+        <!-- The right div for the form to create a blog-->
         <div class="container">
             <h1>New Post</h1>
             <form action="/blog.html">
@@ -40,7 +49,19 @@
             </form>
         </div>
     </div>
+
+    <!-- The container div below is used for the footer and its children elements. -->
+
+    <div id="container">
+        <footer>
+            <h4>Created with ❤️ by Dia Jubara</h4>
+            <p style="text-align: left;"><strong>Portfolio:</strong><em> Full-Stack Development</em></p>
+            <p style="text-align: left;"><strong>Email:</strong><em> djubara@hotmail.com</em></p>
+        </footer>
+    </div>
 </body>
+
+<!-- The JavaScript files used in this application are linked here -->
 <script src="./assets/js/logic.js"></script>
 <script src="./assets/js/form.js"></script>
 

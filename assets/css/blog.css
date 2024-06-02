@@ -1,3 +1,7 @@
+/* blog.css
+    * This file contains the styles for the blog page.
+    * It is included in the blog page. */
+
 .post {
     border: 2px double #c0adad;
     margin-bottom: 8px;

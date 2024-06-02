@@ -1,3 +1,8 @@
+/* this is the css file for the form 
+    * Description: A simple blogging form with a dark color theme option
+    * Author: Dia Jubara */
+
+/* style the container */
 .container {
     width: 50%;
     margin: 0 auto;
@@ -5,8 +10,25 @@
     border: 2px double #c0adad;
 }
 
+/* center the title: The Blogger */
 #container-title {
     text-align: center;
     font-size: 1.5em;
     color: #c0adad;
+}
+
+/* make the form a flex container */
+#the-blogger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style for the footer */
+footer {
+    text-align: center;
+    color: #c0adad;
+    font-size: 0.8em;
+    margin-top: 10px;
+    border: 2px double #c0adad;
 }
