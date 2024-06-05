@@ -62,10 +62,9 @@ THEN I am presented with a link to the developer's portfolio.
 
 ![image](./assets/img/allPostsScreenShot.png)
 
-  > ## Installation
+  > ## Deployment Link:
 
-  1. Clone Repository.
-  2. Open the index.html on your browser
+https://djubara.github.io/Challenge-04-Web-API-Personal-Blog-Dia-Jubara/
 
   > ## Usage
 
