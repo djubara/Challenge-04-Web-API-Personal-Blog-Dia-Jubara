@@ -7,7 +7,7 @@ const titleInputEl = document.querySelector('#title-input');
 const contentInputEl = document.querySelector('#content-input');
 
 formEl.addEventListener('submit', (event) => {
-    // event.preventDefault();
+    event.preventDefault();
     formEl.reset();
 
     const post = {

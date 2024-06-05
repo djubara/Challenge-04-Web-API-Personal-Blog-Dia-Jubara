@@ -13,31 +13,31 @@ function renderPosts() {
         // Create a new h2 element
         const usernameEl = document.createElement("h2");
 
-        // Set the text content of the h2 element
+        // Set the text content of the h2 (username) element
         usernameEl.textContent = post.username;
 
-        // Create a new h3 element
+        // Create a new h3 (title) element
         const titleEl = document.createElement("h3");
 
         // Set the text content of the h3 element
         titleEl.textContent = post.title;
 
-        // Create a new p element
+        // Create a new p (content) element
         const contentEl = document.createElement("p");
 
         // Set the text content of the p element
         contentEl.textContent = post.content;
 
-        // Append the h2 element to the div element
+        // Append the h2 (username) element to the div element
         postEl.appendChild(usernameEl);
 
-        // Append the h3 element to the div element
+        // Append the h3 (title) element to the div element
         postEl.appendChild(titleEl);
 
-        // Append the p element to the div element
+        // Append the p (content) element to the div element
         postEl.appendChild(contentEl);
 
-        // Append the div element to the posts container element
+        // Append the div (the form side) element to the posts container element
         postsContainerEl.appendChild(postEl);
     }
 }

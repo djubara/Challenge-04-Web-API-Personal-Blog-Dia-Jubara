@@ -14,7 +14,7 @@
 #container-title {
     text-align: center;
     font-size: 1.5em;
-    color: #c0adad;
+    /* color: #c0adad; */
 }
 
 /* make the form a flex container */
@@ -27,7 +27,7 @@
 /* style for the footer */
 footer {
     text-align: center;
-    color: #c0adad;
+    /* color: #c0adad; */
     font-size: 0.8em;
     margin-top: 10px;
     border: 2px double #c0adad;

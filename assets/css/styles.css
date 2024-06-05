@@ -21,6 +21,12 @@
     }
 }
 
+/* #username-input {
+    background-color: #333;
+    color: #c0adad;
+    border: 2px embossed #c0adad
+} */
+
 /* style the buttons */
 button {
     font-weight: bold;
