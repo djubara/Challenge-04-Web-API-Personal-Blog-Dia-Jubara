@@ -7,8 +7,7 @@ const titleInputEl = document.querySelector('#title-input');
 const contentInputEl = document.querySelector('#content-input');
 
 formEl.addEventListener('submit', (event) => {
-    event.preventDefault();
-    formEl.reset();
+    // event.preventDefault();
 
     const post = {
         username: userInputEl.value,
@@ -16,5 +15,6 @@ formEl.addEventListener('submit', (event) => {
         content: contentInputEl.value
     };
     newPost(post);
+    formEl.reset();
 
 })
